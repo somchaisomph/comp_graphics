@@ -20,9 +20,9 @@ INCLUDE_FLAGS = -I. \
 -I/usr/local/include/raylib\
 
 prog:
-   $(cc) $(src) $(COMPILER_FLAGS) $(LINKER_FLAGS) $(INCLUDE_FLAGS) -o $(target)
+ $(cc) $(src) $(COMPILER_FLAGS) $(LINKER_FLAGS) $(INCLUDE_FLAGS) -o $(target)
 
-all:prog
+all: prog
 
 
     
